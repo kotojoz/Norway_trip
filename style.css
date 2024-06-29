@@ -29,6 +29,7 @@ h1, h2 {
     width: 45%;
     display: inline;
 }
+
 .view {
     height: 300px;
     width: 100%;
@@ -45,15 +46,16 @@ footer {
 }
 
 @media (max-width: 680px) {
-    h1, h2{
+    h1, h2 {
         font-size: 1rem;
     }
 
-.card{
-    display: block;
-    width: 100%;
-}
-    .view{
+    .card {
+        display: block;
+        width: 100%;
+    }
+
+    .view {
         height: 200px;
         object-fit: cover;
         width: 100%;
